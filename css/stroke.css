@@ -1,0 +1,52 @@
+.stroke { 
+	background-image: url(../images/swoosh.png); 
+	height:300px; 
+	width:360px; 
+	background-color: transparent; 
+	background-repeat: no-repeat; 
+	position:absolute;
+	top: -60px;
+	left: -80px;
+}
+
+.holder {
+	position:relative;
+}
+
+.logo {
+	-moz-opacity: 0;
+	opacity: 0;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=0);
+}
+	
+	
+.all_00000 { width: 360px; height: 300px; background-position: -361px -602px; }
+.all_00001 { width: 360px; height: 300px; background-position: -1083px -602px; }
+.all_00002 { width: 360px; height: 300px; background-position: -1444px -301px; }
+.all_00003 { width: 360px; height: 300px; background-position: 0 -602px; }
+.all_00004 { width: 360px; height: 300px; background-position: -722px -1505px; }
+.all_00005 { width: 360px; height: 300px; background-position: -361px -301px; }
+.all_00006 { width: 360px; height: 300px; background-position: -722px -301px; }
+.all_00007 { width: 360px; height: 300px; background-position: -1083px -1505px; }
+.all_00008 { width: 360px; height: 300px; background-position: -1083px -1204px; }
+.all_00009 { width: 360px; height: 300px; background-position: -722px -1204px; }
+.all_00010 { width: 360px; height: 300px; background-position: -1083px -301px; }
+.all_00011 { width: 360px; height: 300px; background-position: -361px -1204px; }
+.all_00012 { width: 360px; height: 300px; background-position: -1444px 0; }
+.all_00013 { width: 360px; height: 300px; background-position: -722px 0; }
+.all_00014 { width: 360px; height: 300px; background-position: -1083px -903px; }
+.all_00015 { width: 360px; height: 300px; background-position: -722px -602px; }
+.all_00016 { width: 360px; height: 300px; background-position: 0 -1204px; }
+.all_00017 { width: 360px; height: 300px; background-position: -1444px -1505px; }
+.all_00018 { width: 360px; height: 300px; background-position: -1083px 0; }
+.all_00019 { width: 360px; height: 300px; background-position: 0 -1505px; }
+.all_00020 { width: 360px; height: 300px; background-position: 0 -301px; }
+.all_00021 { width: 360px; height: 300px; background-position: -1444px -1204px; }
+.all_00022 { width: 360px; height: 300px; background-position: -1444px -903px; }
+.all_00023 { width: 360px; height: 300px; background-position: -361px -1505px; }
+.all_00024 { width: 360px; height: 300px; background-position: 0 0; }
+.all_00025 { width: 360px; height: 300px; background-position: -361px -903px; }
+.all_00026 { width: 360px; height: 300px; background-position: -361px 0; }
+.all_00027 { width: 360px; height: 300px; background-position: -1444px -602px; }
+.all_00028 { width: 360px; height: 300px; background-position: -722px -903px; }
+.all_00029 { width: 360px; height: 300px; background-position: 0 -903px; }

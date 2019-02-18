@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>.:: OMP Music Group ::.</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/sprites.css?v=1.0">
+  <link rel="stylesheet" href="css/stroke.css?v=1.0">
+  <link rel="stylesheet" href="css/responsive-gs-12col.css?v=1.0">
+  
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.queryloader2.js"></script>
+  <script src="js/sprite.js"></script>
+  
+</head>
+<body>
+
+	<div id="container">
+		<div class="row">
+			<div class="col span_2 holder" onclick="openPage('home')">
+				<img class="logo" src="images/logo.png" alt="logo" >
+				<div class="stroke all_00000"></div>
+			</div>	
+			
+			<div class="col span_10">
+				
+				<div class="row">
+					<div class="col span_9">&nbsp;</div>
+					<div class="col span_3">
+						
+						<div id="player">
+							<div class="row">
+								<div class="col span_1">
+									<a href="javascript:void(0);" id="audioControl" class="audioPlay" onclick="controlAudio();"></a>
+								</div>
+							
+								<div class="col span_8">
+									Rust
+									<div id="status">
+										<div id="bar"></div>
+									</div>
+								</div>
+								
+								<div class="col span_3">
+									<div class="eq">
+									    <span class="bar"></span>
+									    <span class="bar"></span>
+									    <span class="bar"></span>
+									    <span class="bar"></span>
+									    <span class="bar"></span>
+									</div>
+								</div>
+							</div>
+						</div>						
+						
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col span_12">
+						<ul id="nav">
+							<li><a href="javascript:void(0);" onclick="openPage('home')">Home</a></li>
+							<li>/</li>
+							<!--li><a href="javascript:void(0);">The Group</a></li>
+							<li>/</li>
+							<li><a href="javascript:void(0);">Studio</a></li>
+							<li>/</li-->
+							<li><a href="javascript:void(0);" onclick="openPage('about')">About Us</a></li>
+							<li>/</li>
+							<li><a href="javascript:void(0);" onclick="openPage('contact')"">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="content-holder">
+		
+			<div class="home page">
+				<div class="row">
+					<div class="col span_12">
+						<div class="carousel">
+						  <div id="carousel" class="carousel_inner mask">						    
+						    <div class="carousel_box"><img src="images/shop.jpg"></div>
+						    <div class="carousel_box"><img src="images/mega.png"></div>
+						    <div class="carousel_box"><img src="images/prime.png"></div>
+						    <div class="carousel_box"><img src="images/studio.jpg"></div>
+						    <div class="carousel_box"><img src="images/anastasis.jpg"></div>						    
+						  </div>
+						 
+						    <img src="images/previous.png" id="carousel_prev">
+						    <img src="images/next.png" id="carousel_next">
+						    
+						    <div class="highlight"></div>
+						    
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col span_4">&nbsp;</div>
+					
+					<div class="col span_4">						
+
+						<div class="left-text area1">
+							<h3>
+								<a href="http://www.ompmusicgroup.com" target="_blank">OMP Music Group's Online Store</a>
+							</h3>
+							<p>
+								The offical site of OMP's music store.
+								<br><a href="http://www.ompmusicgroup.com" target="_blank">view website &raquo;</a>
+							</p>
+						</div>						
+						
+						<div class="left-text area2">
+							<h3>
+								<a href="http://www.chrisoxygen.com" target="_blank">Chrisoxygen</a>
+							</h3>
+							<p>
+								Christopher Hooper- chrisoxygen is a brilliant audio/visual engineer. He is the founder 
+								and CEO of Oxygen Media Plus Music Group.
+								<br><a href="http://www.chrisoxygen.com" target="_blank">view website &raquo;</a>
+							</p>
+						</div>
+						
+						<div class="left-text area3">
+							<h3>
+								<a href="http://www.msrfjamaica.com" target="_blank">MSRF</a>
+							</h3>
+							<p>
+								MSRF (Media Services Recording Facilities), is a company that offers all-inclusive 
+								accommodation and recording packages to people in the entertainment industry to work 
+								in beautiful Jamaica.
+								<br><a href="http://www.msrfjamaica.com" target="_blank">view website &raquo;</a>
+							</p>
+						</div>
+						
+						<div class="left-text area4">
+							<h3>
+								<a href="javascript:void(0);" onclick="openPage('contact')">OMP Studio Facilities</a>
+							</h3>
+							<p>
+								OMP Music Group features studio facilities, for live bands, recording
+								artists, and all your audio visual needs. <br>
+                <a href="javascript:void(0);" onclick="openPage('contact')">contact us for more details &raquo;</a>
+							</p>
+						</div>	
+
+						<div class="left-text area5">
+							<h3>
+								<a href="http://ompmusicgroup1.wix.com/anastasis" target="_blank">Anastasis</a>
+							</h3>
+							<p>
+								Anastasis. Rahtid party cruise
+								<br><a href="http://ompmusicgroup1.wix.com/anastasis" target="_blank">view website &raquo;</a>
+							</p>
+						</div>					
+						
+					</div>
+					
+					<div class="col span_4">&nbsp;</div>
+				</div>
+			</div><!-- end home page carousel -->
+			
+			<div class="content about page">
+				<h1>About Us</h1>
+				
+				<br>
+				<br>
+				
+				<p>
+					Oxygen Media Plus Music Group (OMPMG) - OMPMG is a full service media 
+					company that primarily provides multimedia content, online music distribution, 
+					mass communication, managing of events, promotions, photography, graphic and 
+					video editing with blue screen facilities, complete music production, voice-overs, 
+					advertisement solutions, consultants and other services.  OMPMG staff is well 
+					experience and continually trained to meet new technologies and growth. One of 
+					our core values is to improve the services that we provide to the entertainment 
+					industry and its related fields. 
+					<br/>
+					<br/>
+					OMPMG utilizes renowned technology and is solution oriented in its approach with a global awareness. Our services provide an affordable alternative for our partners and stakeholders. OMPMG is family oriented in its approach and strongly believes in love, dedication, a solid business model with a core staff to be successful. This company provides excellent customer service. Our human resource is the heart of our strength. 
+					<br/>
+					<br/>
+					OMPMG has worked with renowned record labels, highly achieved entertainers, producers and promoters on a host of projects. We serve by the motto “breathe freely” and we aim to continue providing fast, efficient, affordable, high quality services to our clients in the entertainment industry. We believe that today’s vision is tomorrow’s reality as we aspire to make all the dreams and visions of our clients into a possibility. Oxygen Media Plus Music Group, a fresh approach.
+
+				</p>
+			</div><!-- end bio -->
+			
+			<div class="content contact page">
+				<div class="row">
+					<div class="col span_6">
+						<h1>Contact</h1>
+						<br>				
+						<p>	
+							<span>Please fill out this form and we will get in touch with you shortly.</span>
+							<br><br><br>
+							<form class="form">
+
+								<p class="name">
+									<input type="text" name="name" id="name" placeholder="John Doe" />
+									<label for="name">Name</label>
+									<label class="error" for="name" id="name_error">This field is required.</label>
+								</p>
+							
+								<p class="email">
+									<input type="text" name="email" id="email" placeholder="mail@example.com" />
+									<label for="email">Email</label>
+									<label class="error" for="email" id="email_error">This field is either invalid or was not entered.</label>
+								</p>
+							
+								<p class="web">
+									<input type="text" name="web" id="web" placeholder="www.example.com" />
+									<label for="web">Website</label>
+								</p>		
+						
+								<p class="text">
+									<textarea name="text" placeholder="Write something to us" /></textarea>
+									<label class="error" for="message" id="message_error">This field is required.</label>
+								</p>
+							
+								<p class="submit">
+									<input id="send" type="submit" value="Send" />
+								</p>
+							</form>
+						</p>
+					
+					</div>
+				
+					<div class="col span_6">
+					<br>
+					<br>
+						<h3>Call Us</h3>
+						(876).866.4637 or 
+						(876).334.1517
+						<br>
+						<br>
+						<h3>Address</h3>
+						
+						The Masterton Complex
+						<br>
+						The Water Front, 103 Tower Street / 21 - 25 Hanover Street
+						<br>
+						Kingston, Jamaica W.I.
+						<br>
+						<br>
+						<div id="map-canvas"></div>
+					</div>
+				</div>
+			</div><!-- end contact -->
+			
+		</div>
+	</div>
+	
+	<br>
+	
+	<div id="footer">
+		<svg width="0" height="0">
+			<mask maskUnits="objectBoundingBox" maskContentUnits="objectBoundingBox" id="m1">
+				<linearGradient id="g" gradientUnits="objectBoundingBox" y2="0.5" x2="1" y1="0.5" x1="0">
+					<stop offset="0%" stop-color="rgba(255,255,255,0)" />
+					<stop offset="30%" stop-color="rgba(255,255,255,1)" />
+					<stop offset="70%" stop-color="rgba(255,255,255,1)" />
+					<stop offset="100%" stop-color="rgba(255,255,255,0)" />
+				</linearGradient>
+				<rect id="svg_1" height="1" width="1" y="0" x="0" stroke-width="0" fill="url(#g)"/>
+			</mask>
+		</svg>
+		
+		<br>
+		<br>
+		
+		<div class="row">
+			<div class="col span_8">
+				<ul id="footer-nav">
+					<li><a href="javascript:void(0);" onclick="openPage('home')">Home</a></li>
+					<li>/</li>
+					<!--li><a href="javascript:void(0);">The Group</a></li>
+					<li>/</li>
+					<li><a href="javascript:void(0);">Studio</a></li>
+					<li>/</li-->
+					<li><a href="javascript:void(0);" onclick="openPage('about')">About Us</a></li>
+					<li>/</li>
+					<li><a href="javascript:void(0);" onclick="openPage('contact')">Contact Us</a></li>
+				</ul>
+			</div>
+			
+			<div class="col span_4 copyright">
+				Copyright &copy; 2013 OMP Music Group all rights reserved
+			</div>
+		
+	</div>
+	
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBemImpm-G52BbtXfX-o3DwM2piEmOSCtc&sensor=false"></script>
+	<script src="js/jq.carousel.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/validate.js"></script>
+	
+	<style>.mask { mask: url(#m1); }</style>
+	
+</body>
+</html>
